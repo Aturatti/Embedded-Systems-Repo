@@ -1,0 +1,14 @@
+/*
+ * hello.cpp
+ *
+ *  Created on: Mar 6, 2022
+ *      Author: PICHAU
+ */
+#include "iostream"
+
+extern void initialise_monitor_handles(void);
+
+void hello(){
+    cout << "\ntestie!";
+}
+

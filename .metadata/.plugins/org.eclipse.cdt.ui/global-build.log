@@ -1,0 +1,42 @@
+Extracting support files...
+17:06:57 **** Incremental Build of configuration Debug for project Blinkycpp ****
+make -j12 all 
+'Building file: ../src/synergy_gen/common_data.c'
+'Building file: ../src/synergy_gen/hal_data.c'
+'Invoking: GNU Arm Cross C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O2 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wunused -Wuninitialized -Wall -Wextra -Wmissing-declarations -Wconversion -Wpointer-arith -Wshadow -Wlogical-op -Waggregate-return -Wfloat-equal  -g -D_RENESAS_SYNERGY_ -I"C:\Users\PICHAU\e2_studio\workspace\Blinkycpp\synergy_cfg\ssp_cfg\bsp" -I"C:\Users\PICHAU\e2_studio\workspace\Blinkycpp\synergy_cfg\ssp_cfg\driver" -I"C:\Users\PICHAU\e2_studio\workspace\Blinkycpp\synergy\ssp\inc" -I"C:\Users\PICHAU\e2_studio\workspace\Blinkycpp\synergy\ssp\inc\bsp" -I"C:\Users\PICHAU\e2_studio\workspace\Blinkycpp\synergy\ssp\inc\bsp\cmsis\Include" -I"C:\Users\PICHAU\e2_studio\workspace\Blinkycpp\synergy\ssp\inc\driver\api" -I"C:\Users\PICHAU\e2_studio\workspace\Blinkycpp\synergy\ssp\inc\driver\instances" -I"C:\Users\PICHAU\e2_studio\workspace\Blinkycpp\src" -I"C:\Users\PICHAU\e2_studio\workspace\Blinkycpp\src\synergy_gen" -std=c99 -MMD -MP -MF"src/synergy_gen/common_data.d" -MT"src/synergy_gen/common_data.o" -c -o "src/synergy_gen/common_data.o" -x c "../src/synergy_gen/common_data.c"
+'Invoking: GNU Arm Cross C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O2 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wunused -Wuninitialized -Wall -Wextra -Wmissing-declarations -Wconversion -Wpointer-arith -Wshadow -Wlogical-op -Waggregate-return -Wfloat-equal  -g -D_RENESAS_SYNERGY_ -I"C:\Users\PICHAU\e2_studio\workspace\Blinkycpp\synergy_cfg\ssp_cfg\bsp" -I"C:\Users\PICHAU\e2_studio\workspace\Blinkycpp\synergy_cfg\ssp_cfg\driver" -I"C:\Users\PICHAU\e2_studio\workspace\Blinkycpp\synergy\ssp\inc" -I"C:\Users\PICHAU\e2_studio\workspace\Blinkycpp\synergy\ssp\inc\bsp" -I"C:\Users\PICHAU\e2_studio\workspace\Blinkycpp\synergy\ssp\inc\bsp\cmsis\Include" -I"C:\Users\PICHAU\e2_studio\workspace\Blinkycpp\synergy\ssp\inc\driver\api" -I"C:\Users\PICHAU\e2_studio\workspace\Blinkycpp\synergy\ssp\inc\driver\instances" -I"C:\Users\PICHAU\e2_studio\workspace\Blinkycpp\src" -I"C:\Users\PICHAU\e2_studio\workspace\Blinkycpp\src\synergy_gen" -std=c99 -MMD -MP -MF"src/synergy_gen/hal_data.d" -MT"src/synergy_gen/hal_data.o" -c -o "src/synergy_gen/hal_data.o" -x c "../src/synergy_gen/hal_data.c"
+'Building file: ../src/hal_entry.c'
+'Building file: ../src/hello.cpp'
+'Invoking: GNU Arm Cross C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O2 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wunused -Wuninitialized -Wall -Wextra -Wmissing-declarations -Wconversion -Wpointer-arith -Wshadow -Wlogical-op -Waggregate-return -Wfloat-equal  -g -D_RENESAS_SYNERGY_ -I"C:\Users\PICHAU\e2_studio\workspace\Blinkycpp\synergy_cfg\ssp_cfg\bsp" -I"C:\Users\PICHAU\e2_studio\workspace\Blinkycpp\synergy_cfg\ssp_cfg\driver" -I"C:\Users\PICHAU\e2_studio\workspace\Blinkycpp\synergy\ssp\inc" -I"C:\Users\PICHAU\e2_studio\workspace\Blinkycpp\synergy\ssp\inc\bsp" -I"C:\Users\PICHAU\e2_studio\workspace\Blinkycpp\synergy\ssp\inc\bsp\cmsis\Include" -I"C:\Users\PICHAU\e2_studio\workspace\Blinkycpp\synergy\ssp\inc\driver\api" -I"C:\Users\PICHAU\e2_studio\workspace\Blinkycpp\synergy\ssp\inc\driver\instances" -I"C:\Users\PICHAU\e2_studio\workspace\Blinkycpp\src" -I"C:\Users\PICHAU\e2_studio\workspace\Blinkycpp\src\synergy_gen" -std=c99 -MMD -MP -MF"src/hal_entry.d" -MT"src/hal_entry.o" -c -o "src/hal_entry.o" -x c "../src/hal_entry.c"
+'Invoking: GNU Arm Cross C++ Compiler'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O2 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wunused -Wuninitialized -Wall -Wextra -Wmissing-declarations -Wconversion -Wpointer-arith -Wshadow -Wlogical-op -Waggregate-return -Wfloat-equal  -g -D_RENESAS_SYNERGY_ -I"C:\Users\PICHAU\e2_studio\workspace\Blinkycpp\synergy_cfg\ssp_cfg\bsp" -I"C:\Users\PICHAU\e2_studio\workspace\Blinkycpp\synergy_cfg\ssp_cfg\driver" -I"C:\Users\PICHAU\e2_studio\workspace\Blinkycpp\synergy\ssp\inc" -I"C:\Users\PICHAU\e2_studio\workspace\Blinkycpp\synergy\ssp\inc\bsp" -I"C:\Users\PICHAU\e2_studio\workspace\Blinkycpp\synergy\ssp\inc\bsp\cmsis\Include" -I"C:\Users\PICHAU\e2_studio\workspace\Blinkycpp\synergy\ssp\inc\driver\api" -I"C:\Users\PICHAU\e2_studio\workspace\Blinkycpp\synergy\ssp\inc\driver\instances" -I"C:\Users\PICHAU\e2_studio\workspace\Blinkycpp\src" -I"C:\Users\PICHAU\e2_studio\workspace\Blinkycpp\src\synergy_gen" -std=c++11 -fabi-version=0 -MMD -MP -MF"src/hello.d" -MT"src/hello.o" -c -o "src/hello.o" -x c++ "../src/hello.cpp"
+'Finished building: ../src/hello.cpp'
+' '
+'Finished building: ../src/synergy_gen/common_data.c'
+../src/hal_entry.c: In function 'hal_entry':
+../src/hal_entry.c:35:5: warning: implicit declaration of function 'initialise_monitor_handles' [-Wimplicit-function-declaration]
+   35 |     initialise_monitor_handles();
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~
+'Finished building: ../src/synergy_gen/hal_data.c'
+' '
+' '
+'Finished building: ../src/hal_entry.c'
+' '
+'Building target: Blinkycpp.elf'
+'Invoking: GNU Arm Cross C++ Linker'
+arm-none-eabi-g++ @"Blinkycpp.elf.in"
+'Finished building target: Blinkycpp.elf'
+' '
+'Invoking: GNU Arm Cross Create Flash Image'
+arm-none-eabi-objcopy -O srec "Blinkycpp.elf"  "Blinkycpp.srec"
+'Invoking: GNU Arm Cross Print Size'
+arm-none-eabi-size --format=berkeley "Blinkycpp.elf"
+   text	   data	    bss	    dec	    hex	filename
+  20920	    224	   6532	  27676	   6c1c	Blinkycpp.elf
+'Finished building: Blinkycpp.srec'
+'Finished building: Blinkycpp.siz'
+' '
+' '

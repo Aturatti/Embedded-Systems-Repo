@@ -1,0 +1,23 @@
+/*
+ * print_stuff.cpp
+ *
+ *  Created on: Mar 6, 2022
+ *      Author: PICHAU
+ */
+#include <iostream>
+#include <stdio.h>
+#include "print_stuff.h"
+
+using namespace std;
+
+extern void initialise_monitor_handles(void);  //Utilizada para output em printf
+
+void print_stuff() {
+    int countt;
+    initialise_monitor_handles();
+    printf("Test");
+
+}
+
+
+

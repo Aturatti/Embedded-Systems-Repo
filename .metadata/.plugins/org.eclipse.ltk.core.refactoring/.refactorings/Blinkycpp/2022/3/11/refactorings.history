@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Blinkycpp/src/print_stuff&apos; to &apos;print_stuff.h&apos;" description="Rename resource &apos;print_stuff&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/print_stuff" name="print_stuff.h" stamp="1646588897050" updateReferences="true"/>
+</session>

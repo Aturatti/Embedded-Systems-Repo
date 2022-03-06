@@ -1,0 +1,6 @@
+#ifndef PRINT_STUFF_H_
+#define PRINT_STUFF_H_
+
+extern void print_stuff();
+
+#endif
